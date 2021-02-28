@@ -1,20 +1,52 @@
-body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
-
-  span{
-      color: red;
-  }
   .darkmode {
     background-color: black;
     color: white;
   }
   
-  .darkmode span {
-      color: blue;
-
+  .daymode {
+    background-color: white;
+    color: black;
+  }
+  
+  .daymode #d1:after {
+    content: "MORNING";
   }
 
+  .darkmode #d1:after {
+    content: "NIGHT";
+  }
+ 
+  .daymode #d2:after {
+    content: "day";
+  }
+
+  .darkmode #d2:after {
+    content: "night";
+  }
+
+  .daymode #d3:after {
+    content: "day";
+  }
+
+  .darkmode #d3:after {
+    content: "night";
+  }
+
+  .daymode #d4:after {
+    content: "day";
+  }
+
+  .darkmode #d4:after {
+    content: "night";
+  }
+
+  .darkmode #c1 {
+    color: blue;
+  }
+
+  .daymode #c1 {
+    color: red;
+  }
+
+  
+  
